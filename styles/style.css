@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #1e1e1e;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   display: flex;
@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .content-section__subtitle {
-  font-family: 'EB Garamond';
+  font-family: 'EB Garamond', serif;
   font-weight: 500;
   font-size: 28px;
   line-height: 115%;
@@ -74,7 +74,6 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .header {
   display: flex;
-  justify-content: space-between;
   align-items: flex-start;
   padding: 24px 20px;
 }
@@ -90,8 +89,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .header__menu {
-  width: 75px;
-  height: 84px;
+  margin-left: auto;
 }
 
 .header__menu-list {
@@ -100,6 +98,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  row-gap: 12px;
 }
 
 .header__menu-item {
@@ -121,7 +120,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   background-position: left 20px bottom 0px;
   background-repeat: no-repeat;
   background-size: 95% auto;
-  padding: 0 20px;
+  padding: 7px 20px 0;
 }
 
 .cover__title {
@@ -218,7 +217,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   margin-top: 8px;
 }
 
-.card_text-only {
+.card__content_text-only {
   margin-top: 0;
 }
 
