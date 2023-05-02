@@ -18,7 +18,7 @@
        url("./ebgaramondregular.woff") format("woff");
 }
 
-font-face {
+@font-face {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
@@ -28,7 +28,7 @@ font-face {
        url("./interbold.woff") format("woff");
 }
 
-font-face {
+@font-face {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
